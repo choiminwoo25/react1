@@ -23,5 +23,20 @@ app컴포넌트에서 profile,MyTitle,Gallery컴포넌트를 불러와서 실행
 
 컴포넌트를 다른 파일로 분리해야 재사용이 편함
 
-# react1
+
+
+import 방법이 여러가지 Named Export
+1.import { NamedComponent1 } from "./NamedComponenet" 
+//NamedComponenet안의  NamedComponent1을 가져옴
+
+2.import { NamedComponent1, NamedComponent3 } from "./NamedComponenet" 
+//NamedComponenet안의  NamedComponent1,NamedComponent2을 가져옴
+
+3.import { NamedComponent1 as Foo, NamedComponent3 as Bar } from "./NamedComponenet"
+// NamedComponent1 별칭을 Foo, NamedComponent3 별칭을 Bar로 지정
+
+4.import  * as Foo  from "./NamedComponenet"
+// *(전체)를 Foo라는 namespace로 지정하여 가져옴 쓸땐 Foo.NamedComponent3 이런식으로 사용
+
+
 

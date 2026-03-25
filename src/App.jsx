@@ -1,4 +1,5 @@
 import Gallery from "./components/Gallery"
+import NamedComponentTest from "./components/NamedComponentTest"
 import Profile from "./components/profile"
 
 
@@ -7,8 +8,9 @@ export default function App() {
 
   return (
     <>
-      <Profile/>
-      <Gallery/>
+      <NamedComponentTest/>
+
+      {/* <Gallery/> */}
                 
                 
     </>
