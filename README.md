@@ -38,5 +38,11 @@ import 방법이 여러가지 Named Export
 4.import  * as Foo  from "./NamedComponenet"
 // *(전체)를 Foo라는 namespace로 지정하여 가져옴 쓸땐 Foo.NamedComponent3 이런식으로 사용
 
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+jsx안에서 javascript를 사용할때
+
+-> 문자열("")을 제외한 모든건 중괄호({})
+
+
 
 
