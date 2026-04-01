@@ -28,6 +28,16 @@ export default function ParentComp() {
            width={200} height={200}
          />
 
+         <ChildComp
+            imageInfo={
+                {
+                    src: viteLogo,
+                    alt: "vite",
+                }
+            }
+           
+         />
+
         </>
     )
 }
