@@ -14,7 +14,7 @@ export default function App() {
 
       {/* <Gallery/> */}
       {/* <UseJsx/> */}
-                <ParentComp/>
+                <ParentComp />
                 
     </>
   )
