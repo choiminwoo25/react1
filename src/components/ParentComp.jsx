@@ -1,0 +1,13 @@
+import Profile from "./profile"
+import MyTitle from "./MyTitle"
+import ChildComp from "./ChildComp"
+
+
+export default function ParentComp() {
+    return(
+        <>
+         <ChildComp width/>
+
+        </>
+    )
+}
