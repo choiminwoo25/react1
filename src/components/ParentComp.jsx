@@ -2,6 +2,7 @@ import Profile from "./profile"
 import MyTitle from "./MyTitle"
 import ChildComp from "./ChildComp"
 import reactLogo from "../assets/react.svg";
+import viteLogo from "../assets/vite.svg";
 
 
 export default function ParentComp() {
@@ -15,8 +16,16 @@ export default function ParentComp() {
                 }
             }
            width={100} height={100}
-         
-         
+         />
+
+          <ChildComp
+            imageInfo={
+                {
+                    src: viteLogo,
+                    alt: "vite",
+                }
+            }
+           width={200} height={200}
          />
 
         </>
