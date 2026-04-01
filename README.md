@@ -49,4 +49,9 @@ React 컴포넌트는 Props를 이용해 서로 통신
 부모 컴포넌트(사용하는쪽->import 및 호출) 는 자식 컴포넌트(사용 당하는 쪽)에게 props를 통해서 데이터 전달
 props는  모든 javascript 값을 전달 가능 
 
+image 크기 width=200 으로 자식컴포넌트를 설정하고 부모컴포넌트에서 widh={200}라고 설정하지 않으면 기본으로 width=200으로 나옴
+
+spread문법 props를 한번에 전달
+
+
 
