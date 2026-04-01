@@ -1,4 +1,4 @@
-import Name from "./NameCard";
+import NameCard from "./NameCard";
 
 export default function SpreadComp() {
     const userData = {
@@ -11,7 +11,7 @@ export default function SpreadComp() {
 
     return(
         <>
-        <Name {...userData}/>
+        <NameCard {...userData}/>
         </>
 
     )

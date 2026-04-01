@@ -51,7 +51,11 @@ props는  모든 javascript 값을 전달 가능
 
 image 크기 width=200 으로 자식컴포넌트를 설정하고 부모컴포넌트에서 widh={200}라고 설정하지 않으면 기본으로 width=200으로 나옴
 
-spread문법 props를 한번에 전달
+spread문법 -> props를 한번에 전달
+무분별하게 사용하면 x
+가독성 떨어짐
+불필요한 데이터 전달
+우선순위 문제: <profile {...userData} age={30}/> 이 경우 뒤에 있는 age={30} 값이 적용
 
 
 
