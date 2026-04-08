@@ -4,6 +4,8 @@ import ParentComp from "./components/ParentComp"
 import Profile from "./components/profile"
 import SpreadComp from "./components/SpreadComp"
 import UseJsx from "./components/UseJsx"
+import PackingList from "./components/PackingList"
+import MovieHeroes from "./components/MovieHereos.jsx"
 
 
 export default function App() {
@@ -16,8 +18,9 @@ export default function App() {
       {/* <Gallery/> */}
       {/* <UseJsx/> */}
                 {/* <ParentComp /> */}
-      <SpreadComp/>          
-                
+      {/* <SpreadComp/>           */}
+                {/* <PackingList/> */}
+      <MovieHeroes/>     
     </>
   )
 }
