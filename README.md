@@ -5,7 +5,8 @@
 promps 예제 실습
 중복된 코드는 제거하는게 좋음
 
-```export default function Items({name,isPacked}) {
+```javascript
+export default function Items({name,isPacked}) {
     return(
         < li>
             {isPacked ? 
@@ -20,6 +21,7 @@ promps 예제 실습
         </li>
     )
 }
+```
 
 
 - return < li>{name} {isPacked > 0 && "✅"}</ li>;  
