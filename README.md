@@ -5,12 +5,12 @@
 promps 예제 실습
 중복된 코드는 제거하는게 좋음
 
-export default function Items({name,isPacked}) {
+```export default function Items({name,isPacked}) {
     return(
-        <li>
+        < li>
             {isPacked ? 
-            (<del>
-                {name + "✅"} <-- {} 쓰는 이유는 <del>태그 안에 잇어서
+            (< del>
+                {name + "✅"} <-- {} 쓰는 이유는 < del>태그 안에 잇어서
 
             </del>
             ) : (
@@ -19,9 +19,9 @@ export default function Items({name,isPacked}) {
 
         </li>
     )
-}
+}```
 
-- return <li>{name} {isPacked > 0 && "✅"}</li>;  
+- return < li>{name} {isPacked > 0 && "✅"}</ li>;  
   - &&을 쓸 때 ispacked가 0이면 반환할떄 아무것도 안하는게 아니라 0을 반환함
   그래서 > 0 을 사용
 
