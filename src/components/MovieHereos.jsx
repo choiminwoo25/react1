@@ -2,13 +2,13 @@ import { heroes } from "./HeroesData";
 
 export default function MovieHereos() {
     const filterTests = heroes.filter(hero =>
-        hero.power === 3
+        hero.power === 3 
+       
         
-        
-        
+    
     );
     const listHeroes = filterTests.map (hero =>
-        <li>
+        <li key={hero.id}>
             <p>
                 {hero.name}의 배역은 {hero.casting} 입니다
             </p>

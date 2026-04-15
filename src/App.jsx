@@ -6,6 +6,10 @@ import SpreadComp from "./components/SpreadComp"
 import UseJsx from "./components/UseJsx"
 import PackingList from "./components/PackingList"
 import MovieHeroes from "./components/MovieHereos.jsx"
+import OrderUp from "./components/OrderUp.jsx"
+import Kiosk from "./components/Kiosk.jsx"
+import TeaSet from "./components/TeaSet.jsx"
+
 
 
 export default function App() {
@@ -20,7 +24,9 @@ export default function App() {
                 {/* <ParentComp /> */}
       {/* <SpreadComp/>           */}
                 {/* <PackingList/> */}
-      <MovieHeroes/>     
+      {/* <MovieHeroes/>      */}
+      {/* <Kiosk/> */}
+      <TeaSet/>
     </>
   )
 }
