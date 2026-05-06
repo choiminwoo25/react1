@@ -9,6 +9,8 @@ import MovieHeroes from "./components/MovieHereos.jsx"
 import OrderUp from "./components/OrderUp.jsx"
 import Kiosk from "./components/Kiosk.jsx"
 import TeaSet from "./components/TeaSet.jsx"
+import ButtonCom from "./components/ButtonCom/ButtonCom.jsx"
+import Toolbar from "./components/ButtonCom/Toolbar.jsx"
 
 
 
@@ -26,7 +28,10 @@ export default function App() {
                 {/* <PackingList/> */}
       {/* <MovieHeroes/>      */}
       {/* <Kiosk/> */}
-      <TeaSet/>
+      {/* <TeaSet/> */}
+      {/* <ButtonCom/> */}
+      <Toolbar/>
+      
     </>
   )
 }
