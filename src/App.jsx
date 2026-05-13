@@ -11,6 +11,9 @@ import Kiosk from "./components/Kiosk.jsx"
 import TeaSet from "./components/TeaSet.jsx"
 import ButtonCom from "./components/ButtonCom/ButtonCom.jsx"
 import Toolbar from "./components/ButtonCom/Toolbar.jsx"
+import Bubble from "./components/Bubblecom/Bubble.jsx"
+import Signup1 from "./components/Signup1.jsx"
+import Signup2 from "./components/Signup2.jsx"
 
 
 
@@ -30,7 +33,10 @@ export default function App() {
       {/* <Kiosk/> */}
       {/* <TeaSet/> */}
       {/* <ButtonCom/> */}
-      <Toolbar/>
+      {/* <Toolbar/> */}
+      {/* <Bubble/> */}
+      <Signup1/>
+      <Signup2/>
       
     </>
   )
